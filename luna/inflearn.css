@@ -1,0 +1,20 @@
+@font-face {
+    font-family: "Font";
+    src: url("./font/nanum.TTF");
+}
+
+body {
+    font-family: "Font";
+}
+
+section.inflab-integrated {
+    position: relative;
+    left: 10px;
+    top: -5px;
+    font-family: "Font";
+}
+
+section.inflab-integrated.top-left-menu-button {
+    vertical-align: middle;
+    float: left;
+}
