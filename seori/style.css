@@ -1,0 +1,39 @@
+header {
+    background: white;
+    top: 0px;
+    width: 1442px;
+    height: 50px;
+}
+main {
+    background-color: beige;
+    height: 310px;
+}
+footer {
+    background: blue;
+    height: 310px;
+}
+body {
+    margin: 0;
+}
+
+hr {
+    margin: 0px;
+}
+
+.top {
+    margin-left: 40px;
+    top: 0px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.top_text {
+    color: black;
+    font-size: 11pt;
+    margin-right: 5pt;
+}
+
+.top_image {
+    margin-right: 5pt;
+}
