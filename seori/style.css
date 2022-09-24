@@ -25,7 +25,7 @@ input {
     height: 30px;
     background-color: inherit;
     outline-color: #1DC078;
-    border-radius: 3px;
+    border-radius: 5px;
     font-size: 16px;
     color: #5F5F5F;
     border: none;
@@ -67,6 +67,9 @@ header > nav {
     text-decoration: none;
     cursor: pointer;
 }
+.nav_items ul > li a:hover {
+    color: #00D078;
+}
 
 /* 검색창 */
 .search {
@@ -75,7 +78,7 @@ header > nav {
     height: 35px;
     margin-top: 10px;
     border: none;
-    border-radius: 3px;
+    border-radius: 5px;
     font-size: 16px;
     color: #6D6D6D;
 }
@@ -88,7 +91,7 @@ header > nav {
     margin-left: 20px;
     /* div의 border 설정 */
     border: solid;
-    border-radius: 3px;
+    border-radius: 5px;
     border-width: 1px;
     border-color: #DBDBDB;
     font-size: 16px;
@@ -96,17 +99,21 @@ header > nav {
 }
 /* 회원가입 버튼 */
 .signup {
-    background-color: #ff6d5a;
+    background-color: #FF7867;
     width: 80px;
     height: 35px;
     margin-top: 10px;
     margin-left: 10px;
     /* div의 border 설정 */
     border: solid;
-    border-radius: 3px;
+    border-radius: 5px;
     border-width: 1px;
     border-color: #DBDBDB;
     color: white;
     font-size: 16px;
     padding-top: 3px;
+}
+
+.signup:hover {
+    background-color: #FF6D5A;
 }
