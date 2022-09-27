@@ -1,0 +1,48 @@
+.navbar-container {
+  padding: 20px 160px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-container__left {
+  display: flex;
+  /* justify-content: space-around; */
+  align-items: center;
+}
+
+.navbar__menu {
+  display: flex;
+  /* justify-content:; */
+  align-items: center;
+}
+
+.navbar__menu li {
+  margin: 0px 20px;
+  font-size: 16px;
+  color: #4a4a4a;
+  cursor: pointer;
+  font-weight: 350;
+}
+
+.navbar__sign--login {
+  border: 1px solid #dbdbdb;
+  padding: 8px;
+  margin-right: 5px;
+  text-align: center;
+  border-radius: 4px;
+  color: #363636;
+}
+
+.navbar__sign--signup {
+  border: 1px solid #dbdbdb;
+  padding: 8px;
+  text-align: center;
+  border-radius: 4px;
+  background-color: #ff7867;
+  color: #363636;
+}
+
+.inflearn_logo {
+  fill: #1dc078;
+}

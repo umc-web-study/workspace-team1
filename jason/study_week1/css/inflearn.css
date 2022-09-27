@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+@import url("./inflearn_header.css");
+@import url("./inflearn_navbar.css");
+@import url("./inflearn_footer.css");
+@import url("./inflearn_main.css");
+
+*,
+*::before,
+*::after {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.container {
+  margin: 0px 160px;
+}
