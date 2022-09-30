@@ -1,6 +1,6 @@
 @font-face {
     font-family: "Font";
-    src: url("./font/nanum.TTF");
+    src: url("./font/happy.ttf");
 }
 
 body {
@@ -39,7 +39,7 @@ header {
 }
 
 .header_bottom {
-    height: 100px;
+    height: 45px;
     margin-top: 15px;
     align-items: center;
     /* background-color: palevioletred; */
@@ -69,7 +69,7 @@ header {
 .header_bottom_search {
     float: right;
     width: 150px;
-    background-color: #DFDFDF;
+    background-color: #F6F6F6;
     border-radius: 5px;
     border: 0px;
     height: 31px;
@@ -77,4 +77,46 @@ header {
     background-image: url(search.png);
     background-repeat: no-repeat;
     background-position: 120px;
+}
+
+.top_banner {
+    background-color: #38E5FF;
+}
+
+.top_banner_left {
+    float: left;
+    margin-left: 11%;
+    margin-top: 40px;
+}
+
+.top_banner_title {
+    color: black;
+    font-weight: bolder;
+    display: inline-block;
+    font-size: 25px;
+    margin-top: 20px;
+    /* background-color: pink; */
+}
+
+.top_banner_content {
+    color: black;
+    font-size: 15px;
+    margin-top: 15px;
+    display: inline-block;
+}
+
+.top_banner_image {
+    width: 50%;
+    margin-left: 7%;
+}
+
+.top_banner_tag {
+    background-color: #6344EC;
+    display: inline-block;
+    color: white;
+    font-weight: bold;
+    font-size: small;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
 }
