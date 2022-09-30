@@ -7,14 +7,29 @@ body {
     font-family: "Font";
 }
 
-section.inflab-integrated {
-    position: relative;
-    left: 10px;
-    top: -5px;
-    font-family: "Font";
+header {
+    display: block;
 }
 
-section.inflab-integrated.top-left-menu-button {
+.header_top {
+    font-size: 13px;
+    height: 14px;
+    background-color: orange;
+}
+
+.header_top_left {
+    background-color: yellow;
+    display: inline-block;
+}
+
+.header_top_left_button {
+    display: inline-block;
     vertical-align: middle;
-    float: left;
+    background-color: green;
+}
+
+.header_top_right {
+    float: right;
+    font-weight: bold;
+    background-color: blueviolet;
 }
