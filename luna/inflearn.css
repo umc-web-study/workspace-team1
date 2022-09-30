@@ -7,6 +7,11 @@ body {
     font-family: "Font";
 }
 
+.side_space {
+    margin-left: 12%;
+    margin-right: 12%;
+}
+
 header {
     display: block;
 }
@@ -14,22 +19,62 @@ header {
 .header_top {
     font-size: 13px;
     height: 14px;
-    background-color: orange;
+    /* background-color: orange; */
 }
 
 .header_top_left {
-    background-color: yellow;
     display: inline-block;
+    /* background-color: yellow; */
 }
 
 .header_top_left_button {
     display: inline-block;
     vertical-align: middle;
-    background-color: green;
+    /* background-color: green; */
 }
 
 .header_top_right {
     float: right;
-    font-weight: bold;
-    background-color: blueviolet;
+    /* background-color: blueviolet; */
+}
+
+.header_bottom {
+    height: 100px;
+    margin-top: 15px;
+    align-items: center;
+    /* background-color: palevioletred; */
+}
+
+.header_bottom_category_text {
+    color: rgb(63, 63, 63);
+    font-size: 15px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    float:left;
+    margin-right: 25px;
+    /* background-color: bisque; */
+}
+
+.header_bottom_login_signup {
+    /* 테두리 둥글게 */
+    border: solid 1px #DFDFDF;
+    border-radius: 5px;
+    float: right;
+    padding: 8px;
+    font-size: 15px;
+    margin-left: 8px;
+}
+
+.header_bottom_search {
+    float: right;
+    width: 150px;
+    background-color: #DFDFDF;
+    border-radius: 5px;
+    border: 0px;
+    height: 31px;
+    margin-right: 10px;
+    background-image: url(search.png);
+    background-repeat: no-repeat;
+    background-position: 120px;
 }
