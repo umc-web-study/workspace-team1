@@ -12,6 +12,8 @@ body {
     margin-right: 12%;
 }
 
+/* Header */
+
 header {
     display: block;
 }
@@ -78,6 +80,8 @@ header {
     background-repeat: no-repeat;
     background-position: 120px;
 }
+
+/* Banner 및 Center 검색 부분 */
 
 .top_banner {
     background-color: #38E5FF;
@@ -186,6 +190,7 @@ header {
 .main_center_search {
     text-align: center;
     margin-top: 45px;
+    margin-bottom: 45px;
 }
 
 .main_center_search_search {
@@ -201,4 +206,84 @@ header {
     padding-right: 20px;
     font-size: 15px;
     box-shadow: 2px 2px #f0f0f0;
+}
+
+
+
+/* Footer */
+
+footer {
+    background-color: #303740;
+}
+
+.footer_menu_set {
+    padding: 25px 0px;
+    float: left;
+    width: 14.8%;
+    background-color: #303740;
+}
+
+.footer_menu_set_title {
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 46px;
+    background-color: #303740;
+}
+
+.footer_menu_set_content {
+    color: #b2b2b2;
+    margin-top: 15px;
+    font-size: 13px;
+    line-height: 27px;
+    background-color: #303740;
+}
+
+.footer_bottom {
+    height: 160px;
+    background-color: #303740;
+    padding: 0px 13%;
+}
+
+.footer_bottom_left {
+    background-color: #303740;
+    display: inline-block;
+}
+
+.footer_bottom_left_title {
+    background-color: #303740;
+    color: #b2b2b2;
+    font-size: 11px;
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.footer_bottom_left_content_div {
+    display: block;
+    margin-top: 10px;
+}
+
+.footer_bottom_left_content {
+    color: #b2b2b2;
+    font-size: 11px;
+    display: block;
+    line-height: 20px;
+}
+
+.footer_bottom_left_copyright {
+    margin-top: 10px;
+}
+
+.footer_bottom_right {
+    background-color: #303740;
+    display: inline-flex;
+    align-items: center;
+    float: right;
+    height: 120px;
+}
+
+.footer_bottom_right_icon {
+    width: 35px;
+    background-color: #303740;
+    margin-left: 10px;
 }
