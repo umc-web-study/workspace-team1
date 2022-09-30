@@ -120,3 +120,65 @@ header {
     border-radius: 5px;
     margin-bottom: 10px;
 }
+
+.banner_title_category {
+    display: flex;
+    align-items: center;
+    margin-top: 13px;
+    /* background-color: aquamarine; */
+}
+
+.banner_move_button {
+    background-color: #7F7F7F;
+    display: inline-flex;
+    align-items: center;
+    border-radius: 20px;
+    width: 115px;
+    padding: 10px;
+    margin: 0px 15px 0px 10.5%;
+}
+
+.banner_move_number {
+    color: white;
+    float: left;
+    margin: 0px 25px 0px 5px;
+    font-size: 12px;
+}
+
+.banner_move_arrow_button {
+    float: left;
+    width: 12px;
+    height: 12px;
+    margin: 0px 5px;
+}
+
+.banner_category {
+    display: block;
+}
+
+.banner_category_span {
+    color:rgb(63, 63, 63);
+    font-weight: bold;
+    font-size: 13px;
+    border-radius: 20px;
+    border: solid 2px #E5E8EB;
+    padding: 9px 15px;
+    margin-right: 5px;
+}
+
+.banner_category_down {
+    float: right;
+    /* background-color: black; */
+}
+
+.banner_category_span_arrow {
+    padding: 9px 10px;
+    display: inline-flex;
+    float: right;
+    align-items: center;
+    color:rgb(63, 63, 63);
+    font-weight: bold;
+    font-size: 13px;
+    border-radius: 20px;
+    border: solid 2px #E5E8EB;
+}
