@@ -182,3 +182,23 @@ header {
     border-radius: 20px;
     border: solid 2px #E5E8EB;
 }
+
+.main_center_search {
+    text-align: center;
+    margin-top: 45px;
+}
+
+.main_center_search_search {
+    width: 540px;
+    background-color: #e4f7ef;
+    border-radius: 35px;
+    border: 1px solid #bdebd7;
+    height: 50px;
+    background-image: url(search.png);
+    background-repeat: no-repeat;
+    background-position: 530px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 15px;
+    box-shadow: 2px 2px #f0f0f0;
+}
