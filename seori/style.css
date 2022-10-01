@@ -20,16 +20,6 @@ hr {
     margin-left: 0px;
     margin-top: 0px;
 }
-input {
-    width: 100px;
-    height: 30px;
-    background-color: inherit;
-    outline-color: #1DC078;
-    border-radius: 5px;
-    font-size: 16px;
-    color: #5F5F5F;
-    border: none;
-}
 
 /* 상단바 */
 .top {
@@ -81,6 +71,16 @@ header > nav {
     border-radius: 5px;
     font-size: 16px;
     color: #6D6D6D;
+}
+.search > input {
+    width: 100px;
+    height: 30px;
+    background-color: inherit;
+    outline-color: #1DC078;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #5F5F5F;
+    border: none;
 }
 /* 로그인 버튼 */
 .login {
@@ -156,6 +156,7 @@ header > nav {
     align-items: center;
 }
 .banner_player {
+    display: flex;
     border-radius: 20px;
     background-color: #7F7F7F;
     width: 140px;
@@ -212,4 +213,53 @@ header > nav {
     background-color: #DEE2E6;
     width: 100%;
     height: 1px;
+}
+
+/* 검색뷰 */
+.main_search {
+    margin-top: 50px;
+}
+.main_search > p {
+    font-size: 23px;
+    text-align: center;
+}
+.main_search > div {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    border-radius: 30px;
+    background-color: #E4F7EF;
+    border-color: #A3CDBA;
+    border-style: solid;
+    border-width: 1px;
+    font-size: 14px;
+    font-weight: 400;
+    vertical-align: middle;
+    line-height: 41px;
+    width: 45%;
+    height: 55px;
+    box-shadow: 0 2px 4px -2px gray;
+}
+.main_search > div > input {
+    margin-left: 22px;
+    width: 90%;
+    height: 40px;
+    vertical-align: middle;
+    background-color: inherit;
+    font-size: 16px;
+    color: #5F5F5F;
+    border: none;
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #A3CDBA;
+    opacity: 1; /* Firefox */
+}
+:focus {
+    /* input 태그 클릭시 나타나는 테두리 제거 */
+    outline: none !important;
+}
+.main_search > div > i {
+    color: black;
+    font-size: 23px;
+    margin-right: 25px;
 }
