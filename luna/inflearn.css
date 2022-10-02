@@ -232,6 +232,7 @@ header {
 
 .lecture_content {
     float: left;
+    margin-right: 10px;
 }
 
 .lecture_list_image {
