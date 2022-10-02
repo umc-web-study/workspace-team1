@@ -65,8 +65,9 @@ header > nav {
     font-size: 16px;
     color: #6D6D6D;
 }
+
 .search > input {
-    width: 100px;
+    width: 110px;
     height: 30px;
     background-color: inherit;
     outline-color: #1DC078;
@@ -75,6 +76,13 @@ header > nav {
     color: #5F5F5F;
     border: none;
 }
+.search > i {
+    margin: 10px 0px 0px 5px;
+    color: #4A4A4A;
+    width: 20px;
+    height: 25px;
+}
+
 /* 로그인 버튼 */
 .login {
     background-color: white;
@@ -348,14 +356,17 @@ footer {
     font-size: 14px;
     font-weight: 400;
 }
+
+/* 구분선 */
 footer > hr {
     display: block;
     background-color: #444444;
     border: none;
     margin-left: -30px;
-    width: 100%;
+    width: 90%;
     height: 1px;
 }
+
 .footer_bottom {
     display: flex;
     justify-content: space-between;
