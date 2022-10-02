@@ -5,6 +5,8 @@
 
 body {
     font-family: "Font";
+    margin: 0px;
+    padding: 0px;
 }
 
 .side_space {
@@ -13,7 +15,6 @@ body {
 }
 
 /* Header */
-
 header {
     display: block;
 }
@@ -76,7 +77,7 @@ header {
     border: 0px;
     height: 31px;
     margin-right: 10px;
-    background-image: url(search.png);
+    background-image: url(image/search.png);
     background-repeat: no-repeat;
     background-position: 120px;
 }
@@ -190,7 +191,7 @@ header {
 .main_center_search {
     text-align: center;
     margin-top: 45px;
-    margin-bottom: 45px;
+    margin-bottom: 60px;
 }
 
 .main_center_search_search {
@@ -199,7 +200,7 @@ header {
     border-radius: 35px;
     border: 1px solid #bdebd7;
     height: 50px;
-    background-image: url(search.png);
+    background-image: url(image/search.png);
     background-repeat: no-repeat;
     background-position: 530px;
     padding-left: 20px;
@@ -208,7 +209,97 @@ header {
     box-shadow: 2px 2px #f0f0f0;
 }
 
+.lecture_list {
+    /* background-color: palegreen; */
+}
 
+.lecture_list_title {
+    display: flex;
+    align-items: center;
+    margin-bottom: 6px;
+}
+
+.lecture_list_title_text {
+    font-size: 22px;
+    font-weight: bolder;
+    margin-right: 10px;
+}
+
+.lecture_list_summary {
+    color: rgb(148, 148, 148);
+    font-size: 14px;
+}
+
+.lecture_content {
+    float: left;
+}
+
+.lecture_list_image {
+    width: 270px;
+    height: 180px;
+    margin-bottom: -8px;
+}
+
+.lecture_title {
+    color: rgb(74, 74, 74);
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+.lecture_lecturer {
+    color: rgb(139, 139, 139);
+    font-size: 12px;
+}
+
+.lecture_star {
+    margin-top: -5px;
+    float: left;
+    display: flex;
+    align-items: center;
+}
+
+.lecture_star_img {
+    width: 15px;
+    height: 15px;
+}
+
+.lecture_star_number {
+    font-size: 10px;
+    color: rgb(139, 139, 139);
+    margin-top: 2px;
+    margin-left: 2px;
+}
+
+.lecture_price {
+    color: #175cbe;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.lecture_info {
+    display: flex;
+    align-items: center;
+}
+
+.lecture_people {
+    background-color: #FAD5EA;
+    color: #454545;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 11px;
+    margin-top: 8px;
+}
+
+.lecture_update {
+    background-color: #E4FAFB;
+    color: #454545;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 11px;
+    margin-top: 8px;
+    margin-left: 8px;
+}
 
 /* Footer */
 
