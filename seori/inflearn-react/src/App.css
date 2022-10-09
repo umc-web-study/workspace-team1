@@ -7,9 +7,6 @@ hr {
   margin-top: 0px;
 }
 
-.flex_div {
-  display: flex;
-}
 .dark_gray_text {
   color: darkgray;
 }
@@ -38,6 +35,12 @@ header {
   margin-right: 3pt;
 }
 
+
+/* main */
+main {
+  background-color: white;
+  height: 587px;
+}
 /* nav */
 .nav_items {
   display: flex;
@@ -151,16 +154,9 @@ header {
 .banner > p {
   margin-top: -10px; /* Q. 이게 정녕 최선일까...? 왜 기본 간격 크기가 이렇게 크고, 왜 있는지 */
 }
-
 .banner_image {
   width: 50%;
   height: 317px;
-}
-
-/* main */
-main {
-  background-color: white;
-  height: 587px;
 }
 .banner_pagination {
   margin: 15px 0 15px 50px;
@@ -176,14 +172,17 @@ main {
   align-items: center; /* 교차축에 대해 flex 항목들을 정렬하는 방식을 제어 */
   justify-content: center; /* 주축에 대해 flex 항목들을 정렬하는 방식을 제어 */
 }
-.banner_player > span, i {
+.banner_player > span {
   font-size: 14px;
   color: #FFFFFF;
 }
 .banner_player > div {
   margin-left: 30px;
+  color: white;
 }
 .banner_category {
+  padding-left: 15px;
+  padding-right: 15px;
   margin-left: 10px;
   border-radius: 20px;
   background-color: white;
@@ -215,10 +214,7 @@ main {
   height: 35px;
   text-align: center;
   vertical-align: middle;
-  line-height: 36px;
-}
-.dropdown > i {
-  color: #51585E;
+  line-height: 40px;
 }
 .banner_horizontal_line {
   background-color: #DEE2E6;
@@ -268,11 +264,6 @@ main {
 :focus {
   /* input 태그 클릭시 나타나는 테두리 제거 */
   outline: none !important;
-}
-.main_search > div > i {
-  color: black;
-  font-size: 23px;
-  margin-right: 25px;
 }
 
 /* 좌우 마진 컨테이너 div */

@@ -1,5 +1,10 @@
 import React from "react";
 import { FiSearch } from "react-icons/fi";
+import styled from "styled-components";
+
+const FlexedDiv = styled.div`
+    display: flex;
+`
 
 function NavItems() {
     return (
@@ -12,7 +17,7 @@ function NavItems() {
                 <li><a href="/">커뮤니티</a></li>
                 <li><a href="/">인프런</a></li>
             </ul>
-            <div className="flex_div">
+            <FlexedDiv>
                 <div className="search">
                     <input/>
                     <FiSearch className="searchIcon" />
@@ -23,7 +28,7 @@ function NavItems() {
                 <button className="signup" type="button">
                     회원가입
                 </button>
-            </div>
+            </FlexedDiv>
         </div>
     )
 }
