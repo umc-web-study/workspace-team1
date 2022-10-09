@@ -7,11 +7,12 @@ import BannerPlayer from "./BannerPlayer";
 import { BsChevronDown } from "react-icons/bs";
 import MainSearch from "./MainSearch";
 import styled from "styled-components";
+import CourseListIntro from "./CourseListIntro";
+import Course from "./Course";
 
 const FlexedDiv = styled.div`
     display: flex;
 `
-
 function Main() {
     return (
         <main>
@@ -38,6 +39,16 @@ function Main() {
             </div>
             <div class="banner_horizontal_line"></div>
             <MainSearch name="인프런에서 가치를 높이세요" placeholder="배우고 싶은 지식을 입력해보세요." />
+            <div className="side_margin_container">
+                <CourseListIntro title="무료강의? 오히려 좋아 ✨" extraText="무료강의부터 가볍게 시작해 보세요." />
+                <div class="course_list">
+                    <Course title="인프콘 2022 다시보기" />
+                    <Course title="인프콘 2022 다시보기" />
+                    <Course title="인프콘 2022 다시보기" />
+                    <Course title="인프콘 2022 다시보기" />
+                    <Course title="인프콘 2022 다시보기" />
+                </div>
+            </div>
         </main>
     )
 }
