@@ -1,7 +1,7 @@
 import React from "react";
 import NavItems from "./NavItems";
-import Banner from "../Main/Banner";
-import BannerImage from "../Main/BannerImage";
+import Banner from "./Banner";
+import BannerImage from "./BannerImage";
 import BannerCategory from "./BannerCategory";
 import BannerPlayer from "./BannerPlayer";
 import { BsChevronDown } from "react-icons/bs";
@@ -10,9 +10,10 @@ import styled from "styled-components";
 import CourseListIntro from "./CourseListIntro";
 import Course from "./Course";
 
-const FlexedDiv = styled.div`
+const FlexedDiv = styled.div `
     display: flex;
 `
+
 function Main() {
     return (
         <main>
