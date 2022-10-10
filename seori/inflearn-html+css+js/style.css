@@ -1,26 +1,19 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+hr {
+    margin-left: 0px;
+    margin-top: 0px;
+}
+
+/* header */
 header {
     background: white;
     top: 0px;
     width: 100%;
     height: 427px;
 }
-main {
-    background-color: white;
-    height: 310px;
-}
-footer {
-    background: blue;
-    height: 310px;
-}
-body {
-    margin: 0;
-}
-
-hr {
-    margin-left: 0px;
-    margin-top: 0px;
-}
-
 /* 상단바 */
 .top {
     margin: 0px 65px 0px 35px;
@@ -72,8 +65,9 @@ header > nav {
     font-size: 16px;
     color: #6D6D6D;
 }
+
 .search > input {
-    width: 100px;
+    width: 110px;
     height: 30px;
     background-color: inherit;
     outline-color: #1DC078;
@@ -82,6 +76,13 @@ header > nav {
     color: #5F5F5F;
     border: none;
 }
+.search > i {
+    margin: 10px 0px 0px 5px;
+    color: #4A4A4A;
+    width: 20px;
+    height: 25px;
+}
+
 /* 로그인 버튼 */
 .login {
     background-color: white;
@@ -150,6 +151,11 @@ header > nav {
     height: 317px;
 }
 
+/* main */
+main {
+    background-color: white;
+    height: 725px;
+}
 .banner_pagination {
     margin: 15px 0 15px 50px;
     display: flex;
@@ -263,34 +269,46 @@ header > nav {
     margin-right: 25px;
 }
 
+/* 좌우 마진 컨테이너 div */
 .side_margin_container {
     margin: 15px 0 15px 50px;
 }
+
+/* 강의 목록 소개 */
 .course_list_intro {
+    margin-top: 50px;
     width: 100%;
     height: 60px;
 }
-
 .course_list_intro > span {
     font-size: 25px;
     font-weight: 600;
 }
-
 .course_list_intro > p {
     margin-top: 10px;
     font-size: 14px;
     color: #ADADAD;
 }
-
 .course_list_intro > i {
     color: #1E1E1E;
     font-size: 20px;
 }
+/* 강의 목록 사진 */
 .course_list_pics {
     margin-top: 22px;
     width: 230px;
     height: 150px;
 }
+/* 강의 별점 컨테이너 div */
+.star_container {
+    display: flex;
+}
+.star_container > svg {
+    width: 15px;
+    height: 15px;
+}
+
+/* 강의 목록 */
 .course_list {
     display: flex;
 }
@@ -300,6 +318,7 @@ header > nav {
 .course_list > div > svg {
     margin-top: 5px;
 }
+/* 강의 설명 태그 (수강생 수, 업데이트) */
 .course_tag {
     margin-top: 10px;
 }
@@ -307,4 +326,83 @@ header > nav {
     padding: 6px 10px 6px 10px;
     font-size: 12px;
     border-radius: 5px;
+}
+
+/* Footer */
+footer {
+    background: #303740;
+    width: 100%;
+    height: 465px;
+    padding-left: 85px;
+}
+.footer_category_container {
+    float: left;
+    margin: 50px 30px 45px 0px;
+    width: 220px;
+}
+.footer_category_container > span {
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.footer_category {
+    margin-top: 10%;
+}
+.footer_category > span {
+    margin-top: 5%;
+    display: block;
+    color: #B7B8B8;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+/* 구분선 */
+footer > hr {
+    display: block;
+    background-color: #444444;
+    border: none;
+    margin-left: -30px;
+    width: 90%;
+    height: 1px;
+}
+
+.footer_bottom {
+    display: flex;
+    justify-content: space-between;
+}
+.footer_bottom_left > img {
+    margin-top: 25px;
+    width: 90px;
+    height: 15px;
+}
+.footer_bottom_left > span {
+    color: #BDBDBD;
+    font-size: 12px;
+    font-weight: 600;
+    margin-left: 5px;
+}
+.footer_bottom_left > p {
+    color: #BDBDBD;
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+.footer_bottom_right {
+    margin-right: 13%;
+    display: flex;
+    align-items: center; /* 수직 정렬 */
+}
+.footer_bottom_right a {
+    margin-right: 10px;
+    display: inline-block;
+    width: 34px;
+    height: 34px;
+    border-radius: 100%;
+    background-color: #bdbdbd;
+    text-align: center;
+    line-height: 35px;
+}
+.footer_bottom_right a > i {
+    color: #303740;
 }
