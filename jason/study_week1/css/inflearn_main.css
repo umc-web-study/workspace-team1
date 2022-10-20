@@ -49,3 +49,11 @@
 .main__event--view-button i {
   padding: 10px;
 }
+
+.main__search--space input {
+  background-color: rgba(29, 192, 120, 0.12);
+  border: 1px solid rgba(29, 192, 129, 0.24);
+  border-radius: 30px;
+  padding: 14px 20px;
+  width: 100%;
+}
