@@ -1,10 +1,11 @@
 import React from "react";
 import "./FooterBottomLeft.css"
+import inflearn from "../assets/inflearn.png"
 
 function FooterBottomLeft() {
     return (
         <div className="footer_bottom_left">
-            <img src="resources/inflearn.png" alt="footer-inflearn.png" />
+            <img src={inflearn} alt="footer-inflearn.png" />
             <span>|</span>
             <span>개인정보취급방침</span>
             <span>|</span>

@@ -1,6 +1,7 @@
 import React from "react";
 import { FiSearch } from "react-icons/fi";
 import styled from "styled-components";
+import inflearn from "../assets/inflearn.png"
 import "./NavItems.css"
 
 const FlexedDiv = styled.div`
@@ -11,7 +12,7 @@ function NavItems() {
     return (
         <div className="nav_items">
             <ul>
-                <li><img src="/resources/inflearn.png" alt="nav-inflearn.png" width="110" height="20"/></li>
+                <li><img src={inflearn} alt="nav-inflearn.png" width="110" height="20"/></li>
                 <li><a href="/">강의</a></li>
                 <li><a href="/">로드맵</a></li>
                 <li><a href="/">멘토링</a></li>
