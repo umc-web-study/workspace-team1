@@ -1,15 +1,29 @@
-import React from "react";
+import React, { useState } from "react";
 import "../App.css"
 
 function MiddleTopCategory() {
+    const [number, setNumber] = useState(0);
+
+    const onIncrease = () => {
+        if (number === 7)
+            setNumber(1)
+        else setNumber(number + 1);
+    }
+
+    const onDecrease = () => {
+        if (number === 0)
+            setNumber(0)
+        else setNumber(number - 1);
+    }
+
     return (
         <>
         <div className="banner_title_category">
             <div className="banner_move_button">
-                <span className="banner_move_number">5/7</span>
-                <img alt="arrow_leftt" className="banner_move_arrow_button" src="image/arrow_left.png" />
+                <span className="banner_move_number">{number}/7</span>
+                <img onClick={onDecrease} alt="arrow_leftt" className="banner_move_arrow_button" src="image/arrow_left.png" />
                 <img alt="play" className="banner_move_arrow_button" src="image/play.png" />
-                <img alt="arrow_right" className="banner_move_arrow_button" src="image/arrow_right.png" />
+                <img onClick={onIncrease} alt="arrow_right" className="banner_move_arrow_button" src="image/arrow_right.png" />
             </div>
             <div style={{marginRight: "15px", width: "2px", height: "35px", fontSize: "30px", borderLeft: "solid 1px rgb(227, 227, 227)", fontWeight: "lighter"}}>
                 <p style={{width: "1px", color: "white"}}>|</p>
