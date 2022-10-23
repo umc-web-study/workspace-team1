@@ -41,7 +41,6 @@ header {
 
 .header_top_left_button {
   display: inline-block;
-  vertical-align: middle;
   /* background-color: green; */
 }
 
@@ -406,7 +405,6 @@ footer {
 
 .footer_bottom_right {
   float: right;
-  height: 120px;
   margin-right: 14%;
   margin-top: -80px;
 }
