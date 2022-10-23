@@ -21,7 +21,7 @@ header {
 
 .header_top {
   font-size: 13px;
-  height: 14px;
+  height: 20px;
   /* background-color: orange; */
 }
 
@@ -30,7 +30,7 @@ header {
   /* background-color: yellow; */
 }
 
-.header_top_left_text {
+.header_top_text {
   font-weight: bold;
   font-size: 14px;
   position: relative;
@@ -47,14 +47,20 @@ header {
 
 .header_top_right {
   float: right;
+  display: inline;
+  vertical-align: middle;
+  margin-top: 13px;
   /* background-color: blueviolet; */
 }
 
 .header_bottom {
   height: 45px;
-  margin-top: 15px;
+  margin-top: 5px;
   align-items: center;
-  /* background-color: palevioletred; */
+}
+
+.header_bottom_right {
+  background-color: bisque;
 }
 
 .header_bottom_category_text {
@@ -64,16 +70,15 @@ header {
   display: flex;
   align-items: center;
   float:left;
-  margin-right: 25px;
+  margin-right: 28px;
   /* background-color: bisque; */
 }
 
 .header_bottom_login_signup {
-  /* �׵θ� �ձ۰� */
   border: solid 1px #DFDFDF;
   border-radius: 5px;
   float: right;
-  padding: 8px;
+  padding: 7px;
   font-size: 15px;
   margin-left: 8px;
 }
@@ -84,8 +89,9 @@ header {
   background-color: #F6F6F6;
   border-radius: 5px;
   border: 0px;
-  height: 31px;
-  margin-right: 10px;
+  height: 35px;
+  margin-right: 14px;
+  margin-top: 10px;
   /* background-image: url(image/search.png); */
   background-repeat: no-repeat;
   background-position: 120px;
@@ -95,7 +101,7 @@ header {
 
 .top_banner {
   background-color: #38E5FF;
-  margin-top: 20px;
+  margin-top: 17px;
 }
 
 .top_banner_left {
@@ -145,7 +151,6 @@ header {
 .banner_title_category {
   display: flex;
   align-items: center;
-  margin-top: 13px;
   /* background-color: aquamarine; */
 }
 
@@ -171,6 +176,7 @@ header {
   width: 12px;
   height: 12px;
   margin: 0px 5px;
+  cursor: pointer;
 }
 
 .banner_category {
@@ -202,6 +208,7 @@ header {
   font-weight: bold;
   font-size: 13px;
   border-radius: 20px;
+  margin-left: 50px;
   border: solid 2px #E5E8EB;
 }
 
@@ -343,9 +350,7 @@ footer {
 
 .footer_menu_set {
   padding: 25px 0px;
-  float: left;
-  width: 14.8%;
-  background-color: #303740;
+  display: inline-block;
 }
 
 .footer_menu_set_title {
@@ -357,25 +362,20 @@ footer {
 
 .footer_menu_set_content {
   color: #b2b2b2;
-  margin-top: 15px;
   font-size: 13px;
-  line-height: 15px;
-  background-color: #303740;
 }
 
 .footer_bottom {
   padding: 0px 13%;
+  margin-top: 100px;
   display: inline;
 }
 
-.footer_bottom > div {
-  background-color: #303740;
-}
-
 .footer_bottom_left {
-  background-color: #303740;
   display: inline-block;
   padding: 0px 13%;
+  margin-top: 40px;
+  margin-bottom: 10px;
 }
 
 .footer_bottom_left_title {
@@ -383,13 +383,11 @@ footer {
   display: inline;  
   font-size: 11px;
   font-weight: bold;
-  margin-right: 5px;
+  margin-right: 8px;
 }
 
 .footer_bottom_left_content_div {
   display: block;
-  background-color: #303740;
-  margin-top: 10px;
   display: inline;
 }
 
@@ -399,23 +397,21 @@ footer {
   display: inline;
   line-height: 7px;
   padding: 0px 13%;
-  background-color: #303740;
 }
 
 .footer_bottom_left_copyright {
-  display: inline;
+  display: block;
+  margin-top: 10px;
 }
 
 .footer_bottom_right {
-  background-color: #303740;
-  display: inline-flex;
-  align-items: center;
   float: right;
   height: 120px;
+  margin-right: 14%;
+  margin-top: -80px;
 }
 
 .footer_bottom_right_icon {
   width: 35px;
-  background-color: #303740;
   margin-left: 10px;
 }

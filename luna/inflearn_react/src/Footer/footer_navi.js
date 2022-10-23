@@ -4,7 +4,7 @@ import '../App.css';
 function FooterNavi() {
     return (
         <>
-        <div class="footer_menu_set" style={{paddingLeft: "13%"}}>
+        <div class="footer_menu_set" style={{paddingLeft: "13%", marginRight: "11%"}}>
             <p class="footer_menu_set_title">인프런</p>
             <p class="footer_menu_set_content">인프런 소개</p>
             <p class="footer_menu_set_content">인프랩 스토리</p>
@@ -12,7 +12,7 @@ function FooterNavi() {
             <p class="footer_menu_set_content"><br/></p>
             <p class="footer_menu_set_content"><br/></p>
         </div>
-        <div class="footer_menu_set">
+        <div class="footer_menu_set" style={{marginRight: "11%"}}>
             <p class="footer_menu_set_title">신청하기</p>
             <p class="footer_menu_set_content">지식공유참여</p>
             <p class="footer_menu_set_content">멘토링 소개</p>
@@ -20,7 +20,7 @@ function FooterNavi() {
             <p class="footer_menu_set_content">인프런 X 대학교</p>
             <p class="footer_menu_set_content">인프런 X AWS 제휴</p>
         </div>
-        <div class="footer_menu_set">
+        <div class="footer_menu_set" style={{marginRight: "11%"}}>
             <p class="footer_menu_set_title">코드등록</p>
             <p class="footer_menu_set_content">수강코드 등록</p>
             <p class="footer_menu_set_content">포인트코드 등록</p>
@@ -28,7 +28,7 @@ function FooterNavi() {
             <p class="footer_menu_set_content"><br/></p>
             <p class="footer_menu_set_content"><br/></p>
         </div>
-        <div class="footer_menu_set">
+        <div class="footer_menu_set" style={{marginRight: "11%"}}>
             <p class="footer_menu_set_title">고객센터</p>
             <p class="footer_menu_set_content">공지사항</p>
             <p class="footer_menu_set_content">자주묻는 질문</p>
