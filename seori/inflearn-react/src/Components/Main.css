@@ -1,0 +1,52 @@
+/* main */
+main {
+  background-color: white;
+  height: 1100px;
+}
+
+.banner_pagination {
+  margin: 15px 0 15px 50px;
+  display: flex;
+  align-items: center;
+}
+
+.banner_vertical_line {
+  background-color: #DEE2E6;
+  width: 1px;
+  height: 35px;
+  margin-left: 15px;
+}
+.dropdown {
+  margin-left: 150px;
+  border-radius: 20px;
+  background-color: white;
+  border-color: #CED4DA;
+  border-style: solid;
+  border-width: 1px;
+  width: 35px;
+  height: 35px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 40px;
+}
+.banner_horizontal_line {
+  background-color: #DEE2E6;
+  width: 100%;
+  height: 1px;
+}
+
+/* 좌우 마진 컨테이너 div */
+.side_margin_container {
+  margin: 15px 0 15px 50px;
+}
+
+/* 강의 목록 */
+.course_list {
+  display: flex;
+}
+.course_list > div {
+  margin-right: 6px;
+}
+.course_list > div > svg {
+  margin-top: 5px;
+}

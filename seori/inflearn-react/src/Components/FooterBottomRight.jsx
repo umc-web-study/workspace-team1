@@ -3,6 +3,7 @@ import { AiOutlineInstagram, AiOutlineTwitter } from "react-icons/ai";
 import { SiNaver, SiBloglovin } from "react-icons/si";
 import { BsYoutube } from "react-icons/bs";
 import { RiFacebookFill } from "react-icons/ri";
+import "./FooterBottomRight.css"
 
 function FooterBottomRight() {
     return (

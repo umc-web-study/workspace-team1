@@ -2,6 +2,7 @@ import React from "react";
 import FooterCategory from "./FooterCategory";
 import FooterBottomLeft from "./FooterBottomLeft";
 import FooterBottomRight from "./FooterBottomRight";
+import "./Footer.css"
 
 function Footer() {
     return (

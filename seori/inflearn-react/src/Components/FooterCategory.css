@@ -1,0 +1,21 @@
+.footer_category_container {
+  float: left;
+  margin: 50px 30px 45px 0px;
+  width: 220px;
+}
+.footer_category_container > span {
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.footer_category {
+  margin-top: 10%;
+}
+.footer_category > span {
+  margin-top: 5%;
+  display: block;
+  color: #B7B8B8;
+  font-size: 14px;
+  font-weight: 400;
+}

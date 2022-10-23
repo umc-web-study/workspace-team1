@@ -1,6 +1,7 @@
 import { React, useState } from "react";
 import { HiOutlineSearch } from "react-icons/hi";
 import styled from "styled-components";
+import "./MainSearch.css"
 
 const StyledIcon = styled.i`
     color: black;

@@ -9,6 +9,7 @@ import MainSearch from "./MainSearch";
 import styled from "styled-components";
 import CourseListIntro from "./CourseListIntro";
 import Course from "./Course";
+import "./Main.css"
 
 const FlexedDiv = styled.div `
     display: flex;

@@ -1,7 +1,8 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPlay, faPause } from "@fortawesome/free-solid-svg-icons";
 import { React, useState } from "react";
-import { BsChevronLeft, BsFillPlayFill, BsChevronRight, BsFillPauseFill } from "react-icons/bs";
+import { BsChevronLeft, BsChevronRight } from "react-icons/bs";
+import "./BannerPlayer.css"
 
 function BannerPlayer() {
     const [pageNum, setPageNum] = useState(1)

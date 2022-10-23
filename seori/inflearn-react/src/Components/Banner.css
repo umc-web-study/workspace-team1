@@ -1,0 +1,26 @@
+/* 메인 배너 */
+.banner {
+  width: 50%;
+  height: 317px;
+  background-color: #38E5FF;
+  padding-left: 50px;
+}
+.banner > div {
+  background-color: #6344ec;
+  border-radius: 3px;
+  width: 110px;
+  height: 23px;
+  margin-top: 50px;
+  font-size: 14px;
+  font-weight: medium;
+  color: white;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 24px;
+}
+.banner > h1 {
+  line-height: 1.5;
+}
+.banner > p {
+  margin-top: -10px; /* Q. 이게 정녕 최선일까...? 왜 기본 간격 크기가 이렇게 크고, 왜 있는지 */
+}

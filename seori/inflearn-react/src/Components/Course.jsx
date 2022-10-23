@@ -1,4 +1,5 @@
 import React from "react";
+import "./Course.css"
 
 function Course(props) {
     return (

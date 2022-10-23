@@ -1,6 +1,7 @@
 import React from "react";
 import { FiSearch } from "react-icons/fi";
 import styled from "styled-components";
+import "./NavItems.css"
 
 const FlexedDiv = styled.div`
     display: flex;
