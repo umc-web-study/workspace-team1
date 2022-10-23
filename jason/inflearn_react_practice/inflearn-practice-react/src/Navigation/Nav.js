@@ -1,8 +1,8 @@
-import React from 'react';
+import React, {useState} from 'react';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons/faMagnifyingGlass";
 
-function Navigation() {
+export default function Navigation() {
     return (
         <nav className={"nav"}>
             <div className={"container"}>
@@ -27,8 +27,8 @@ function Navigation() {
                     </div>
                     <div className={"nav_func"}>
                         <div className={"nav_func-search"}>
-                            <input type="text"/>
-                            <a href="#"><FontAwesomeIcon icon={faMagnifyingGlass} /></a>
+                            <input type="text" />
+                            <a href="#"><FontAwesomeIcon icon={ faMagnifyingGlass } /></a>
                         </div>
                         <div className={"nav_func-login"}>
                             <a href="#">로그인</a>
@@ -42,5 +42,3 @@ function Navigation() {
         </nav>
     );
 }
-
-export default Navigation;
