@@ -7,17 +7,17 @@ import { faPause } from "@fortawesome/free-solid-svg-icons/faPause";
 // import { event_sample } from "./event_sample";
 
 export default function Event() {
-    // const [ counter, setCounter ] = React.useState(1);
+    const [ counter, setCounter ] = React.useState(1);
+
+    const leftButtonOnClick = () => {
+        setCounter(counter - 1);
+    };
+    // const pauseButtonClick = () => {
     //
-    // const leftButtonOnClick = () => {
-    //     setCounter(counter - 1);
     // };
-    // // const pauseButtonClick = () => {
-    // //
-    // // };
-    // const rightButtonOnClick = () => {
-    //     setCounter(counter + 1);
-    // }
+    const rightButtonOnClick = () => {
+        setCounter(counter + 1);
+    }
 
     return (
         <div className={"main_event"}>

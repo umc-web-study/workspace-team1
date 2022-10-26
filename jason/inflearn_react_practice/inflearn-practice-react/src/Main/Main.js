@@ -8,7 +8,7 @@ export default function Main() {
         <main className={"main"}>
             <Event />
             <Search />
-            <LectureList />
+            {/*<LectureList />*/}
         </main>
     );
 }

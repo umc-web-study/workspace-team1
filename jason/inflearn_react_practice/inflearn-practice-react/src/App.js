@@ -10,7 +10,7 @@ function App() {
       <Header />
       <Navigation />
       <Main />
-      <Footer />
+      {/*<Footer />*/}
     </div>
   );
 }
