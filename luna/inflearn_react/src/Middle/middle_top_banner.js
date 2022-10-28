@@ -1,7 +1,7 @@
 import React from "react";
 import "../App.css"
 
-function MiddleTopBanner() {
+export default function MiddleTopBanner() {
     return (
         <>
         <div className="top_banner">
@@ -20,5 +20,3 @@ function MiddleTopBanner() {
         </>
     )
 }
-
-export default MiddleTopBanner;

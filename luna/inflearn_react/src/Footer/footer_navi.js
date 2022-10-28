@@ -1,7 +1,7 @@
 import React from "react";
 import '../App.css';
 
-function FooterNavi() {
+export default function FooterNavi() {
     return (
         <>
         <div class="footer_menu_set" style={{paddingLeft: "13%", marginRight: "11%"}}>
@@ -47,5 +47,3 @@ function FooterNavi() {
         </>
     )
 }
-
-export default FooterNavi;

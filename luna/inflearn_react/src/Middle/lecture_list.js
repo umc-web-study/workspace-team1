@@ -1,7 +1,7 @@
 import React from "react";
 import '../App.css'
 
-function LectureList() {
+export default function LectureList() {
     return (
         <>
         <div className="lecture_list side_space">
@@ -110,5 +110,3 @@ function LectureList() {
         </>
     )
 }
-
-export default LectureList;

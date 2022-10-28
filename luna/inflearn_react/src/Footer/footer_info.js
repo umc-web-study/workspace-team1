@@ -1,7 +1,7 @@
 import React from "react";
 import '../App.css';
 
-function FooterInfo() {
+export default function FooterInfo() {
     return (
         <>
         <div className="footer_bottom">
@@ -34,5 +34,3 @@ function FooterInfo() {
         </>
     )
 }
-
-export default FooterInfo;

@@ -1,7 +1,7 @@
 import React from "react";
 import "../App.css"
 
-function HeaderBottom() {
+export default function HeaderBottom() {
     return (
         <>
         <div className="header_bottom side_space">
@@ -24,5 +24,3 @@ function HeaderBottom() {
         </>
     )
 }
-
-export default HeaderBottom;

@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "../App.css"
 
-function MiddleTopCategory() {
+export default function MiddleTopCategory() {
     const [number, setNumber] = useState(1);
 
     const onIncrease = () => {
@@ -50,5 +50,3 @@ function MiddleTopCategory() {
         </>
     )
 }
-
-export default MiddleTopCategory;

@@ -1,7 +1,7 @@
 import React from "react";
 import "../App.css"
 
-function HeaderTop() {
+export default function HeaderTop() {
     return (
         <>
         <div className="header_top side_space">
@@ -26,5 +26,3 @@ function HeaderTop() {
         </>
     )
 }
-
-export default HeaderTop;
