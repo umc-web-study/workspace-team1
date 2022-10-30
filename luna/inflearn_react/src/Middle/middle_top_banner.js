@@ -1,16 +1,16 @@
 import React from "react";
 import "../App.css"
 
-export default function MiddleTopBanner() {
+export default function MiddleTopBanner(props) {
     return (
         <>
         <div className="top_banner">
             <div className="top_banner_left" style={{}}>
                 <br/>
-                <p className="top_banner_tag">추천 학습 로드맵</p>
-                <p className="top_banner_title">왕초보를 위한</p>
-                <p className="top_banner_title">Lv. 1 인프런 로드맵 📖</p>
-                <p className="top_banner_content">인프런이 처음이라면, 길라잡이가 되어드릴게요.</p>
+                <p className="top_banner_tag">{props.tag}</p>
+                <p className="top_banner_title">{props.title1}</p>
+                <p className="top_banner_title">{props.title2}</p>
+                <p className="top_banner_content">{props.content}</p>
                 <br/><br/><br/>
             </div>
             <div style={{float: "right"}}>
