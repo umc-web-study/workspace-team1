@@ -3,41 +3,6 @@ import Filter from './Week 07/Filter';
 import MenuItem from './Week 07/MenuItem';
 
 function App() {
-  // const menu = [
-  //   {
-  //     id: 1,
-  //     title: "Buttermilk Pancakes",
-  //     category: "breakfast",
-  //     price: 15.99,
-  //     img: "image\menuitem01.jpeg",
-  //     desc: '설명설명설명설명'
-  //   },
-  //   {
-  //     id: 2,
-  //     title: "Buttermilk Pancakes",
-  //     category: "breakfast",
-  //     price: 15.99,
-  //     img: "image\menuitem01.jpeg",
-  //     desc: '설명설명설명설명'
-  //   },
-  //   {
-  //     id: 3,
-  //     title: "Buttermilk Pancakes",
-  //     category: "breakfast",
-  //     price: 15.99,
-  //     img: "image\menuitem01.jpeg",
-  //     desc: '설명설명설명설명'
-  //   },
-  //   {
-  //     id: 4,
-  //     title: "Buttermilk Pancakes",
-  //     category: "breakfast",
-  //     price: 15.99,
-  //     img: "image\menuitem01.jpeg",
-  //     desc: '설명설명설명설명'
-  //   }
-  // ]
-  
   return (
     <>
     <body style={{backgroundColor: "#f4f9ff"}}>

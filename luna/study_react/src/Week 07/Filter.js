@@ -1,18 +1,23 @@
 import React from 'react';
+import styled from 'styled-components';
 import FilterButton from './FilterButton';
 
 export default function Filter() {
     return (
         <>
         <FilterButton title="All" />
-        <p style={{marginRight: "15px"}}></p>
+        <Space />
         <FilterButton title="Breakfast" />
-        <p style={{marginRight: "15px"}}></p>
+        <Space />
         <FilterButton title="Lunch" />
-        <p style={{marginRight: "15px"}}></p>
+        <Space />
         <FilterButton title="Shakes" />
-        <p style={{marginRight: "15px"}}></p>
+        <Space />
         <FilterButton title="Dinner" />
         </>
     );
 }
+
+const Space = styled.p `
+    margin-right: 15px;
+`
