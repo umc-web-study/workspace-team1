@@ -1,0 +1,49 @@
+@import "reset.css";
+
+h1 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+
+.underline_div {
+    width: 8rem;
+    background-color: #caa770;
+    height: 0.2rem;
+    margin-left: 1rem;
+}
+
+.category_button {
+    border-radius: 0.4rem;
+    border-width: 0.15rem;
+    border-color: #caa770;
+    margin-top: 2rem;
+    margin-left: 1rem;
+}
+
+.menu_container {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: flex-start;
+}
+.menu_div {
+    float: left;
+    width: 14rem;
+    height: 13rem;
+    padding: 0rem 1rem 1rem 1rem;
+}
+.menu_image {
+    display: flex;
+    width: 14rem;
+    height: 13rem;
+    margin-bottom: 0.3rem;
+}
+.menu_title {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.menu_div > span {
+    display: block;
+    padding-top: 0.4rem;
+}

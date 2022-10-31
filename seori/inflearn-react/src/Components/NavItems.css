@@ -1,0 +1,86 @@
+/* nav */
+.nav_items {
+  display: flex;
+  justify-content: space-between;
+  color: black;
+  font-size: 16px;
+}
+.nav_items ul > li {
+  display: inline-block;
+  margin-left: 20px;
+}
+.nav_items ul > li > a {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+.nav_items ul > li a:hover {
+  color: #00D078;
+}
+
+/* 검색창 */
+.search {
+  display: flex;
+  background-color: #F6F6F6;
+  width: 40%;
+  height: 35px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  color: #6D6D6D;
+}
+
+.search > input {
+  margin-left: 10px;
+  width: 80%;
+  height: 100%;
+  background-color: inherit;
+  outline-color: #1DC078;
+  border-radius: 5px;
+  font-size: 16px;
+  color: #5F5F5F;
+  border: none;
+}
+.searchIcon {
+  margin: 7px 5px 0px 0px;
+  color: #4A4A4A;
+  width: 20%;
+  height: 55%;
+}
+
+/* 로그인 버튼 */
+.login {
+  background-color: white;
+  width: 60px;
+  height: 35px;
+  margin-top: 10px;
+  margin-left: 20px;
+  /* div의 border 설정 */
+  border: solid;
+  border-radius: 5px;
+  border-width: 1px;
+  border-color: #DBDBDB;
+  font-size: 16px;
+  padding-top: 3px;
+}
+/* 회원가입 버튼 */
+.signup {
+  background-color: #FF7867;
+  width: 80px;
+  height: 35px;
+  margin-top: 10px;
+  margin-left: 10px;
+  /* div의 border 설정 */
+  border: solid;
+  border-radius: 5px;
+  border-width: 1px;
+  border-color: #DBDBDB;
+  color: white;
+  font-size: 16px;
+  padding-top: 3px;
+}
+
+.signup:hover {
+  background-color: #FF6D5A;
+}

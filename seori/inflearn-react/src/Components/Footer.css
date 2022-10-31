@@ -1,0 +1,14 @@
+/* 구분선 */
+footer > hr {
+  display: block;
+  background-color: #444444;
+  border: none;
+  margin-left: -30px;
+  width: 90%;
+  height: 1px;
+}
+
+.footer_bottom {
+  display: flex;
+  justify-content: space-between;
+}
