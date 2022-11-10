@@ -1,0 +1,37 @@
+/* CSS reset */
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  box-sizing: border-box;
+}
+body {
+  line-height: 1.5;
+  letter-spacing: -0.8px;
+  color: #000a12;
+}
+ol,
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+a:hover {
+  cursor: pointer;
+}
+button {
+  all: unset;
+}
+select {
+  all: unset;
+}
+input {
+  outline: none;
+  border: none;
+  background-color: transparent;
+}
