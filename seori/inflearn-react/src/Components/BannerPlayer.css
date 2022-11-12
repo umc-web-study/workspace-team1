@@ -1,0 +1,17 @@
+.banner_player {
+  display: flex;
+  border-radius: 20px;
+  background-color: #7F7F7F;
+  width: 140px;
+  height: 35px;
+  align-items: center; /* 교차축에 대해 flex 항목들을 정렬하는 방식을 제어 */
+  justify-content: center; /* 주축에 대해 flex 항목들을 정렬하는 방식을 제어 */
+}
+.banner_player > span {
+  font-size: 14px;
+  color: #FFFFFF;
+}
+.banner_player > div {
+  margin-left: 30px;
+  color: white;
+}

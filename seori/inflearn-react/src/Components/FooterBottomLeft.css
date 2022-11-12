@@ -1,0 +1,16 @@
+.footer_bottom_left > img {
+  margin-top: 25px;
+  width: 90px;
+  height: 15px;
+}
+.footer_bottom_left > span {
+  color: #BDBDBD;
+  font-size: 12px;
+  font-weight: 600;
+  margin-left: 5px;
+}
+.footer_bottom_left > p {
+  color: #BDBDBD;
+  font-size: 12px;
+  line-height: 1.5;
+}

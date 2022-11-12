@@ -1,0 +1,19 @@
+/* 강의 목록 소개 */
+.course_list_intro {
+  margin-top: 50px;
+  width: 100%;
+  height: 60px;
+}
+.course_list_intro > span {
+  font-size: 25px;
+  font-weight: 600;
+}
+.course_list_intro > p {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #ADADAD;
+}
+.course_list_intro > i {
+  color: #1E1E1E;
+  font-size: 20px;
+}
