@@ -6,14 +6,12 @@ import Recommand from "./Recommand";
 import Video from "./Video";
 
 const HomeWrapper = styled.section`
-    background-color: yellowgreen;
+    // background-color: yellowgreen;
 `;
 
 const ContentWrapper = styled.section`
     margin-left: 10%;
     margin-right: 10%;
-    // display: flex;
-    // align-items: center;
 `;
 
 export default function Home() {
@@ -25,7 +23,9 @@ export default function Home() {
                 <Recommand />
                 <br /><br /><br /><br />
                 <ViewMoreButton />
-                {/* <Video /> */}
+                <Video />
+                <br /><br /><br /><br />
+                <ViewMoreButton />
             </ContentWrapper>
             <br /><br /><br /><br />
             <br /><br /><br /><br />

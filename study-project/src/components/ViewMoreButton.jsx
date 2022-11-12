@@ -3,6 +3,7 @@ import styled from "styled-components";
 
 const ViewMoreWrapper = styled.div `
     text-align: center;
+    cursor: pointer;
 `
 
 const ViewMore = styled.button `

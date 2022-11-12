@@ -4,6 +4,7 @@ import styled from "styled-components";
 const RecommandProductWrapper = styled.div `
     display: inline-block;
     width: 18.8%;
+    cursor: pointer;
 `
 
 const Price = styled.p `
