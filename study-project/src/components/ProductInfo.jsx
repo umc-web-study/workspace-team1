@@ -62,7 +62,7 @@ export default function ProductInfo(props) {
 
     return (
         <ProductInfoWrapper>
-            <p className='category'>홈 > {props.category} > {props.company}</p>
+            <p className='category'>홈 {'>'} {props.category} {'>'} {props.company}</p>
             <p className='name'>{props.name}</p>
             <p className='checked_num'>조회 {props.checkedNum} ∙ 찜 {props.likedNum} ∙ 배송비 별도</p>
             <div className='price_container'>
