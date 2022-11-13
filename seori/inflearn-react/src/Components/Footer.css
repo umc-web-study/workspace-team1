@@ -1,3 +1,11 @@
+/* Footer */
+footer {
+  background: #303740;
+  width: 100%;
+  padding-left: 5rem;
+  padding-bottom: 2rem;
+}
+
 /* 구분선 */
 footer > hr {
   display: block;
