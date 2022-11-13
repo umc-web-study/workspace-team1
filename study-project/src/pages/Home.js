@@ -2,8 +2,9 @@ import React from "react";
 import styled from "styled-components";
 import ViewMoreButton from "../components/ViewMoreButton";
 import Banner from "./Banner";
-import Recommand from "./Recommand";
+import New from "./New";
 import Video from "./Video";
+import Recommand from "./Recommand";
 
 const HomeWrapper = styled.section`
     // background-color: yellowgreen;
@@ -20,12 +21,15 @@ export default function Home() {
             <Banner />
             <ContentWrapper>
                 <br /><br />
-                <Recommand />
+                <New />
                 <br /><br /><br /><br />
                 <ViewMoreButton />
+                <br /><br />
                 <Video />
                 <br /><br /><br /><br />
                 <ViewMoreButton />
+                <br /><br />
+                <Recommand />
             </ContentWrapper>
             <br /><br /><br /><br />
             <br /><br /><br /><br />

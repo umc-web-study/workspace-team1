@@ -2,10 +2,10 @@ import React from "react";
 import styled from "styled-components";
 
 const VideoProductWrapper = styled.div `
-    background: url(../images/test_img_01.jpg);
+    background: url(../images/test_img_02.jpg);
     display: inline-block;
     width: 18.8%;
-    height: 340px;
+    height: 10%;
     border-radius: 5px;
     cursor: pointer;
 `
