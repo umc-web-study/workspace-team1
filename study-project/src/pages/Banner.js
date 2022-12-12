@@ -4,7 +4,6 @@ import BannerImg from "../components/BannerImg";
 import { useState } from "react";
 
 const BannerWrapper = styled.div `
-    background-color: gray;
     height: 30em;
 `
 
@@ -14,6 +13,7 @@ const LeftArrow = styled.div `
     height: 30em;
     width: 10%;
     background-color: yellowgreen;
+    opacity: 0.2;
     cursor: pointer;
 `
 
@@ -22,6 +22,7 @@ const RightArrow = styled.div `
     height: 30em;
     width: 10%;
     background-color: yellow;
+    opacity: 0.2;
     cursor: pointer;
 `
 
@@ -41,6 +42,13 @@ export default function Banner() {
         "https://img2.joongna.com/media/original/2022/10/31/1667210920864.png"
     ]
 
+    const bannerBackgroundColor = [
+        "#f05d7a", "#f05d7a", "#1b83e1",
+        "#cf6118", "#646464", "#02b26c",
+        "#101010", "#d93d35", "#16b0e3",
+        "#475c66"
+    ]
+
     const onIncreaseImage = () => {
         if (bannerImageIdx < 9)
             setImageNumber(bannerImageIdx + 1)
@@ -54,7 +62,7 @@ export default function Banner() {
     }
 
     return (
-        <BannerWrapper>
+        <BannerWrapper style={{backgroundColor: bannerBackgroundColor[bannerImageIdx]}}>
             <LeftArrow onClick={onDecreaseImage}>
                 {/* <img src="../images/left_arrow.png" alt="LeftArrow" /> */}
             </LeftArrow>
