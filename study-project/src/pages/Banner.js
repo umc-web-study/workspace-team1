@@ -4,26 +4,36 @@ import BannerImg from "../components/BannerImg";
 import { useState } from "react";
 
 const BannerWrapper = styled.div `
-    height: 30em;
+    height: 27em;
 `
 
 const LeftArrow = styled.div `
     display: inline-block;
     float: left;
-    height: 30em;
-    width: 10%;
-    background-color: yellowgreen;
-    opacity: 0.2;
+    height: 27em;
+    width: 8%;
     cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 7px;
+    &:hover {
+        background-color: rgba(0, 0, 0, 0.1);
+    }
 `
 
 const RightArrow = styled.div `
     display: inline-block;
-    height: 30em;
-    width: 10%;
-    background-color: yellow;
-    opacity: 0.2;
+    height: 27em;
+    width: 8%;
     cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 7px;
+    &:hover {
+        background-color: rgba(0, 0, 0, 0.1);
+    }
 `
 
 export default function Banner() {
@@ -63,11 +73,13 @@ export default function Banner() {
 
     return (
         <BannerWrapper style={{backgroundColor: bannerBackgroundColor[bannerImageIdx]}}>
-            <LeftArrow onClick={onDecreaseImage}>
-                {/* <img src="../images/left_arrow.png" alt="LeftArrow" /> */}
+            <LeftArrow onClick={onDecreaseImage} style={{alignItems: "center"}}>
+                <img src="../images/left_arrow.png" width={"45%"} />
             </LeftArrow>
             <BannerImg img = {bannerImage[bannerImageIdx]} />
-            <RightArrow onClick={onIncreaseImage}/>
+            <RightArrow onClick={onIncreaseImage}>
+                <img src="../images/right_arrow.png" width={"45%"} />
+            </RightArrow>
         </BannerWrapper>
     );
 }
