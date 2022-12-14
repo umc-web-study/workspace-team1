@@ -1,16 +1,8 @@
-/* Footer */
-footer {
-  background: #303740;
-  width: 100%;
-  height: 470px;
-  padding-left: 85px;
-}
 /* header */
 header {
   background: white;
   top: 0px;
   width: 100%;
-  height: 55px;
 }
 /* 상단바 */
 .top {

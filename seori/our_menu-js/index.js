@@ -63,7 +63,7 @@ function displayMenuItems(menuItems) {
         <span>$${menuItem.price}</span>
         <span>${menuItem.desc}</span>
         </article>`;
-    })
+    });
     // join을 통해 배열의 내용을 연결하여 하나로 만든다.
     displayMenu = displayMenu.join("");
     // 구성한 DOM을 메뉴 컨테이너의 innerHTML로 넘겨준다.

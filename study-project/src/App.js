@@ -5,6 +5,7 @@ import Header from './components/common/Header';
 import Main from './pages/Main';
 import Category from './pages/Category';
 import Event from './pages/Event';
+import Product from './pages/Product';
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
         <Route path='/' element={<Main />}/>
         <Route path='/category' element={<Category />}/>
         <Route path='/event' element={<Event />}/>
+        <Route path='/product' element={<Product />}/>
       </Routes>
     </Router>
   );
