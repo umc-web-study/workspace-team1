@@ -1,7 +1,6 @@
-import React from "react";
+import React, { useCallback, useEffect, useRef, useState } from 'react';
 import styled from "styled-components";
 import BannerImg from "../components/BannerImg";
-import { useState } from "react";
 
 const BannerWrapper = styled.div `
     height: 27em;
@@ -36,7 +35,48 @@ const RightArrow = styled.div `
     }
 `
 
+//사용자 정의 Hook
+const useCounter = (initialValue, ms) => {
+    const [count, setCount] = useState(initialValue);
+    const intervalRef = useRef(null);
+    const start = useCallback(() => {
+        if (intervalRef.current !== null) {
+            return;
+        }
+        intervalRef.current = setInterval(() => {
+            setCount(c => c + 1);
+        }, ms);
+    }, []);
+    const stop = useCallback(() => {
+        if (intervalRef.current === null) {
+            return;
+        }
+        clearInterval(intervalRef.current);
+        intervalRef.current = null;
+    }, []);
+    const reset = useCallback(() => {
+        setCount(0);
+        stop()
+    }, []);
+    return { count, start, stop, reset };
+}
+
 export default function Banner() {
+    // Timer 관련    
+	//시, 분, 초를 state로 저장
+    const [currentSeconds, setCurrentSeconds] = useState(0);
+    const { count, start, stop, reset } = useCounter(0, 1000);
+
+	// 타이머 기능
+    const timer = () => {
+        const seconds = count % 60;
+        setCurrentSeconds(seconds)
+    }
+    
+    // count의 변화에 따라 timer 함수 랜더링
+    useEffect(timer, [count]);
+
+    // Banner Image 관련
     const [bannerImageIdx, setImageNumber] = useState(1);
 
     const bannerImage = [
@@ -63,12 +103,20 @@ export default function Banner() {
         if (bannerImageIdx < 9)
             setImageNumber(bannerImageIdx + 1)
         else setImageNumber(1);
+
+        reset()
+        start()
+
+        console.log(currentSeconds)
     }
 
     const onDecreaseImage = () => {
         if (bannerImageIdx > 1)
             setImageNumber(bannerImageIdx - 1)
         else setImageNumber(9);
+
+        reset()
+        start()
     }
 
     return (
@@ -80,6 +128,7 @@ export default function Banner() {
             <RightArrow onClick={onIncreaseImage}>
                 <img src="../images/right_arrow.png" width={"45%"} />
             </RightArrow>
+            <h1>{currentSeconds}</h1>
         </BannerWrapper>
     );
 }
