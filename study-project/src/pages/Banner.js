@@ -71,6 +71,11 @@ export default function Banner() {
     const timer = () => {
         const seconds = count % 60;
         setCurrentSeconds(seconds)
+
+        if (seconds == 2) {
+            reset()
+            onIncreaseImage()
+        }
     }
     
     // count의 변화에 따라 timer 함수 랜더링
@@ -106,8 +111,6 @@ export default function Banner() {
 
         reset()
         start()
-
-        console.log(currentSeconds)
     }
 
     const onDecreaseImage = () => {
@@ -128,7 +131,6 @@ export default function Banner() {
             <RightArrow onClick={onIncreaseImage}>
                 <img src="../images/right_arrow.png" width={"45%"} />
             </RightArrow>
-            <h1>{currentSeconds}</h1>
         </BannerWrapper>
     );
 }
