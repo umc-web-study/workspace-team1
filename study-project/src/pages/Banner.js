@@ -1,6 +1,7 @@
 import React, { useCallback, useEffect, useRef, useState } from 'react';
 import styled from "styled-components";
 import BannerImg from "../components/BannerImg";
+import BannerIndicator from '../components/BannerIndicator';
 
 const BannerWrapper = styled.div `
     height: 27em;
@@ -65,14 +66,13 @@ export default function Banner() {
     // Timer 관련    
 	//시, 분, 초를 state로 저장
     const [currentSeconds, setCurrentSeconds] = useState(0);
-    const { count, start, stop, reset } = useCounter(0, 1000);
+    const { count, start, reset } = useCounter(0, 1000);
 
 	// 타이머 기능
     const timer = () => {
-        const seconds = count % 60;
-        setCurrentSeconds(seconds)
+        setCurrentSeconds(currentSeconds)
 
-        if (seconds == 2) {
+        if (currentSeconds === 2) {
             reset()
             onIncreaseImage()
         }
@@ -125,11 +125,12 @@ export default function Banner() {
     return (
         <BannerWrapper style={{backgroundColor: bannerBackgroundColor[bannerImageIdx]}}>
             <LeftArrow onClick={onDecreaseImage} style={{alignItems: "center"}}>
-                <img src="../images/left_arrow.png" width={"45%"} />
+                <img src="../images/left_arrow.png" width={"45%"} alt="leftArrow"/>
             </LeftArrow>
             <BannerImg img = {bannerImage[bannerImageIdx]} />
+            <BannerIndicator number = {bannerImageIdx} style={{float: "left"}} />
             <RightArrow onClick={onIncreaseImage}>
-                <img src="../images/right_arrow.png" width={"45%"} />
+                <img src="../images/right_arrow.png" width={"45%"} alt="rightArrow" />
             </RightArrow>
         </BannerWrapper>
     );
