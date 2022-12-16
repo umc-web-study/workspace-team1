@@ -1,15 +1,9 @@
 import React from "react";
-import styled from "styled-components";
-
-const MainWrapper = styled.section`
-    background-color: red;
-`;
+import Home from "./Home";
 
 const Main = () => {
     return(
-        <MainWrapper>
-            <div>루나</div>
-        </MainWrapper>
+        <Home />
     );
 };
 
