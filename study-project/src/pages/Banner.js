@@ -1,7 +1,6 @@
 import React, { useCallback, useEffect, useRef, useState } from 'react';
 import styled from "styled-components";
 import BannerImg from "../components/BannerImg";
-import BannerIndicator from '../components/BannerIndicator';
 
 const BannerWrapper = styled.div `
     height: 27em;
@@ -128,7 +127,6 @@ export default function Banner() {
                 <img src="../images/left_arrow.png" width={"45%"} alt="leftArrow"/>
             </LeftArrow>
             <BannerImg img = {bannerImage[bannerImageIdx]} />
-            <BannerIndicator number = {bannerImageIdx} style={{float: "left"}} />
             <RightArrow onClick={onIncreaseImage}>
                 <img src="../images/right_arrow.png" width={"45%"} alt="rightArrow" />
             </RightArrow>
